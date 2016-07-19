@@ -50,4 +50,4 @@ heroku 使用主动策略，主动提供一个环境变量process.env.PROT来供
 	`heroku logs --tail`
 
 
-更多介绍可以访问（https://devcenter.heroku.com/articles/getting-started-with-nodejs）
+更多介绍可以访问（https://devcenter.heroku.com/articles/getting-started-with-nodejs/ ）
