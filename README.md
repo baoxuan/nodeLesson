@@ -21,20 +21,33 @@ app.listen(process.env.PROT|| 3000)
 heroku 使用主动策略，主动提供一个环境变量process.env.PROT来供我们监听
 
 5.部署到 herku
+
  1、`heroku create`
  2、`git push heroku master`
-6. 运行应用
+
+6.运行应用
+
   `heroku ps` 可以检查部署成功
-7. 查看
+
+7.查看
+
 	`heroku open` 会在浏览器显示你运行的应用
+
 其他
+
 本地运行 代码
+
 	`heroku local web`
+
 推送本地修改
+
 	`git add .`
 	`git commit -m "修改描述" `
 	`git push heroku master`
+
 查看logs
+
 	`heroku logs --tail`
+
 
 更多介绍可以访问（https://devcenter.heroku.com/articles/getting-started-with-nodejs）
